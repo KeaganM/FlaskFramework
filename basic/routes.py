@@ -22,7 +22,6 @@ def root():
     """
     return redirect(url_for("home"))
 
-def
 
 @app.route('/test_get', methods=['GET'])
 def test_get():
